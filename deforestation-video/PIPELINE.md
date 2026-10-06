@@ -11,3 +11,8 @@ Needs: Node 22+, ffmpeg, Python 3 with numpy, Pillow, rasterio; `npm install` he
    push-in to the Amazon, 2001-2024 timelapse) as ONE video. Compositing the 6000x4000 layers live in Chrome ran at 0.25 fps, so the ground is baked; timing lives in `tools/plan.py`.
 5. Composition: `python3 -I tools/build_video.py` writes `video/index.html` (edit the generator, not the HTML).
 6. Check and render: `cd video && npx hyperframes check && npx hyperframes render --quality standard --output renders/reading-the-forest.mp4`.
+
+## Delivered files (not in git: too large; rebuild with the steps above)
+- `video/renders/reading-the-forest-final.mp4`: 1920x1080, 30 fps, 7 min 21 s, H.264 + AAC, normalised to -16 LUFS (ffmpeg loudnorm, video stream copied).
+- `video/reading-the-forest.srt`: sentence-level captions from the narration timings.
+- Render took 40 min on 4 cores with software rendering. The map ground is baked (`bake_ground.py`) because live compositing ran at 0.25 fps.

@@ -1,0 +1,450 @@
+1
+00:00:01,200 --> 00:00:07,273
+This is the southern Amazon region of
+South America, mapped from satellite data.
+
+2
+00:00:07,723 --> 00:00:12,979
+The coloured areas are places where tree
+cover that existed in the year two
+
+3
+00:00:12,979 --> 00:00:18,586
+thousand was lost between two thousand and
+one and two thousand and twenty-four.
+
+4
+00:00:19,036 --> 00:00:20,758
+Yellow is early.
+
+5
+00:00:21,208 --> 00:00:23,028
+Red is recent.
+
+6
+00:00:23,478 --> 00:00:27,107
+Each pixel covers about thirty metres of
+ground.
+
+7
+00:00:27,557 --> 00:00:32,261
+Today we will use maps like this one to
+ask a simple question.
+
+8
+00:00:32,711 --> 00:00:36,535
+How much forest is being lost, and how do
+we know?
+
+9
+00:00:38,035 --> 00:00:42,348
+Forests cover four point one four billion
+hectares.
+
+10
+00:00:42,798 --> 00:00:45,742
+About one third of the land on Earth.
+
+11
+00:00:46,192 --> 00:00:51,765
+At least one point one eight billion
+hectares of that is classified as primary
+
+12
+00:00:51,765 --> 00:00:52,265
+forest.
+
+13
+00:00:52,715 --> 00:00:58,228
+These figures come from the Food and
+Agriculture Organization's Global Forest
+
+14
+00:00:58,228 --> 00:01:03,383
+Resources Assessment, published in October
+two thousand and twenty-five.
+
+15
+00:01:03,833 --> 00:01:07,853
+It covers two hundred and thirty-six
+countries and areas.
+
+16
+00:01:09,353 --> 00:01:12,542
+Mapping forests from space is not new.
+
+17
+00:01:12,992 --> 00:01:19,091
+NASA's first Landsat satellite launched on
+the twenty-third of July, nineteen
+
+18
+00:01:19,091 --> 00:01:20,042
+seventy-two.
+
+19
+00:01:20,492 --> 00:01:25,782
+Since then, Landsat satellites have
+continuously acquired images of the
+
+20
+00:01:25,782 --> 00:01:27,347
+Earth's land surface.
+
+21
+00:01:27,797 --> 00:01:34,344
+Today Europe's Sentinel-2 satellites add
+images at ten-metre resolution, revisiting
+
+22
+00:01:34,344 --> 00:01:37,341
+the same ground about every five days.
+
+23
+00:01:37,791 --> 00:01:41,322
+A map is only as good as its definition.
+
+24
+00:01:41,772 --> 00:01:47,636
+In the global forest change dataset from
+the University of Maryland, tree cover
+
+25
+00:01:47,636 --> 00:01:50,680
+means vegetation taller than five metres.
+
+26
+00:01:51,130 --> 00:01:56,932
+Loss means a stand-replacement
+disturbance, a change from forest to non-
+
+27
+00:01:56,932 --> 00:01:57,496
+forest.
+
+28
+00:01:57,946 --> 00:02:00,010
+That definition matters.
+
+29
+00:02:00,460 --> 00:02:06,114
+It counts what satellites can see, which
+is not always the same as what a country
+
+30
+00:02:06,114 --> 00:02:07,510
+calls deforestation.
+
+31
+00:02:09,010 --> 00:02:14,313
+There is no single number for
+deforestation, because there is no single
+
+32
+00:02:14,313 --> 00:02:14,985
+question.
+
+33
+00:02:15,435 --> 00:02:21,262
+The FAO assessment is compiled with
+national correspondents from one hundred
+
+34
+00:02:21,262 --> 00:02:24,099
+and ninety-seven countries and areas.
+
+35
+00:02:24,549 --> 00:02:30,269
+Global Forest Watch measures tree cover
+loss from satellites, and that includes
+
+36
+00:02:30,269 --> 00:02:31,355
+loss from fire.
+
+37
+00:02:31,805 --> 00:02:38,892
+And Brazil's space agency, INPE, runs a
+programme called PRODES that measures
+
+38
+00:02:38,892 --> 00:02:43,402
+deforestation in the Brazilian Legal
+Amazon only.
+
+39
+00:02:43,852 --> 00:02:49,213
+Those numbers should never be placed on
+one axis as if they measured the same
+
+40
+00:02:49,213 --> 00:02:49,631
+thing.
+
+41
+00:02:50,081 --> 00:02:54,247
+In this film, each one will be labelled
+with its source.
+
+42
+00:02:55,747 --> 00:02:58,838
+Here is the good news, and it is real.
+
+43
+00:02:59,288 --> 00:03:06,009
+According to the FAO, deforestation slowed
+to ten point nine million hectares per
+
+44
+00:03:06,009 --> 00:03:10,738
+year between two thousand fifteen and
+twenty twenty-five.
+
+45
+00:03:11,188 --> 00:03:14,817
+In the nineteen nineties it was seventeen
+point six.
+
+46
+00:03:15,267 --> 00:03:21,309
+Net forest loss fell from ten point seven
+million hectares per year in the nineteen
+
+47
+00:03:21,309 --> 00:03:27,059
+nineties to four point one two million in
+twenty fifteen to twenty twenty-five.
+
+48
+00:03:27,509 --> 00:03:33,191
+But ten point nine million hectares a year
+is still a very large number.
+
+49
+00:03:33,641 --> 00:03:35,510
+The trend is falling.
+
+50
+00:03:35,960 --> 00:03:38,073
+The loss has not stopped.
+
+51
+00:03:39,573 --> 00:03:41,588
+Now the camera moves closer.
+
+52
+00:03:42,038 --> 00:03:48,355
+The dashed line is the Legal Amazon, the
+area INPE monitors.
+
+53
+00:03:48,805 --> 00:03:53,362
+Inside and outside it, the colours show
+the year of loss.
+
+54
+00:03:53,812 --> 00:03:59,836
+Every shade on this map was recorded in a
+dataset that anyone can download.
+
+55
+00:04:00,286 --> 00:04:06,603
+INPE publishes the same kind of detail for
+the Brazilian Legal Amazon.
+
+56
+00:04:07,053 --> 00:04:12,454
+Its yearly deforestation layer contains
+more than eight hundred thousand
+
+57
+00:04:12,454 --> 00:04:16,205
+individual polygons, each with a date and
+an area.
+
+58
+00:04:17,705 --> 00:04:23,986
+For the year from August two thousand
+twenty-three to July two thousand twenty-
+
+59
+00:04:23,986 --> 00:04:30,346
+four, INPE estimated six thousand two
+hundred and eighty-eight square kilometres
+
+60
+00:04:30,346 --> 00:04:31,697
+of deforestation.
+
+61
+00:04:32,147 --> 00:04:37,465
+For the following year, the first estimate
+was five thousand seven hundred and
+
+62
+00:04:37,465 --> 00:04:39,442
+ninety-six square kilometres.
+
+63
+00:04:39,892 --> 00:04:45,610
+After the data were consolidated in March
+two thousand twenty-six, the figure became
+
+64
+00:04:45,610 --> 00:04:48,605
+five thousand seven hundred and thirty-
+one.
+
+65
+00:04:49,055 --> 00:04:50,826
+Notice that detail.
+
+66
+00:04:51,276 --> 00:04:57,328
+Even official numbers are revised, and a
+careful presentation says which version it
+
+67
+00:04:57,328 --> 00:04:57,984
+is using.
+
+68
+00:04:59,484 --> 00:05:04,286
+Satellites also show that the story is not
+only about clearing.
+
+69
+00:05:04,736 --> 00:05:10,597
+Global Forest Watch reported that in two
+thousand twenty-four, the world lost six
+
+70
+00:05:10,597 --> 00:05:16,603
+point seven million hectares of tropical
+primary forest, nearly twice as much as in
+
+71
+00:05:16,603 --> 00:05:18,484
+two thousand twenty-three.
+
+72
+00:05:18,934 --> 00:05:25,061
+For the first time on record, fires, not
+agriculture, were the leading cause, at
+
+73
+00:05:25,061 --> 00:05:26,669
+nearly fifty percent.
+
+74
+00:05:27,119 --> 00:05:33,174
+Brazil accounted for forty-two percent of
+that loss, and fires caused sixty-six
+
+75
+00:05:33,174 --> 00:05:34,707
+percent of Brazil's.
+
+76
+00:05:35,157 --> 00:05:41,224
+In two thousand twenty-five, tropical
+primary forest loss fell by thirty-six
+
+77
+00:05:41,224 --> 00:05:44,896
+percent, to four point three million
+hectares.
+
+78
+00:05:45,346 --> 00:05:49,659
+That is still forty-six percent higher
+than a decade earlier.
+
+79
+00:05:50,109 --> 00:05:55,828
+Across all kinds of tree cover, not only
+primary forest, the world lost about
+
+80
+00:05:55,828 --> 00:06:01,695
+thirty million hectares in two thousand
+twenty-four, five percent more than the
+
+81
+00:06:01,695 --> 00:06:02,586
+year before.
+
+82
+00:06:03,036 --> 00:06:09,526
+In two thousand twenty-five, global tree
+cover loss declined by fourteen percent,
+
+83
+00:06:09,526 --> 00:06:12,971
+to twenty-five point five million
+hectares.
+
+84
+00:06:13,421 --> 00:06:17,001
+Fires were responsible for forty-two
+percent of it.
+
+85
+00:06:17,451 --> 00:06:20,689
+That is an area larger than the United
+Kingdom.
+
+86
+00:06:22,189 --> 00:06:24,302
+What do these maps tell us?
+
+87
+00:06:24,752 --> 00:06:29,505
+That forest loss can be measured, mapped,
+and published openly.
+
+88
+00:06:29,955 --> 00:06:32,899
+They also tell us the target is not met.
+
+89
+00:06:33,349 --> 00:06:38,361
+Global Forest Watch reports that
+deforestation in two thousand twenty-five
+
+90
+00:06:38,361 --> 00:06:43,982
+was seventy percent higher than the level
+needed to halt and reverse forest loss by
+
+91
+00:06:43,982 --> 00:06:45,337
+two thousand thirty.
+
+92
+00:06:45,787 --> 00:06:48,340
+A map cannot protect a forest.
+
+93
+00:06:48,790 --> 00:06:54,130
+But it can show us, pixel by pixel,
+whether we are keeping our promises.
+
+94
+00:06:55,630 --> 00:07:00,921
+Every number in this film comes from a
+public source, listed on screen.
+
+95
+00:07:01,371 --> 00:07:08,732
+The sources are the FAO, Global Forest
+Watch and the University of Maryland,
+
+96
+00:07:08,732 --> 00:07:15,705
+INPE, NASA and the U S Geological Survey,
+and the European Space Agency.
+
+97
+00:07:16,155 --> 00:07:17,095
+Thank you.
