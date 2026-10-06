@@ -22,12 +22,18 @@ Access date: 2026-10-06. Nothing here is an estimate made by me.
 | 11 | 2024: tropical primary forest loss 6.7 million ha, nearly twice 2023; fires, not agriculture, the leading cause for the first time, nearly 50%. | WRI release on Global Forest Watch 2024 data | https://www.wri.org/news/release-global-forest-loss-shatters-records-2024-fueled-massive-fires |
 | 12 | Brazil = 42% of 2024 tropical primary forest loss, 66% of it caused by fire. Bolivia 1.5 million ha (+200%). Global tree cover loss ~30 million ha (+5% vs 2023). | WRI release | same |
 
+| 13 | Landsat 1 (ERTS) launched 23 July 1972; "Since 1972, Landsat satellites have continuously acquired space-based images of the Earth's land surface." | USGS | https://www.usgs.gov/landsat-missions/landsat-1 |
+| 14 | Sentinel-2: 10 m resolution, 290 km swath, 5-day revisit with two satellites. | ESA | https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2 |
+| 15 | Global Forest Change v1.12: ~30 m pixels; tree cover = canopy closure of vegetation taller than 5 m; loss = "stand-replacement disturbance, or a change from a forest to non-forest state"; loss year coded 2001-2024. Citation: Hansen et al. 2013, Science 342:850-853. | Hansen/UMD/Google/USGS/NASA dataset page | https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html |
+
 ## Seen only in search snippets: NOT usable until read on the primary page
 
 - PRODES 2023 consolidated = 9,064 km2 (so 2024 estimate is -30.6%).
 - FAO: deforestation 13.6 million ha/yr (2000-2015); primary forest loss 1.61 million ha/yr (2015-2025).
-- PRODES 2004 = 27,772 km2 (peak) and 2012 = 4,571 km2 (low): only seen on NGO/news pages; need INPE's own series.
-- Hansen et al. 2013 (Science) and Landsat/Sentinel facts: primary pages blocked (403/404), need another route.
+- PRODES 2004 = 27,772 km2 and 2012 = 4,571 km2: only seen on NGO/news pages. One search even returned 4,656 km2 for
+  2012 (estimate vs consolidated). DECISION: these numbers are NOT used in the video.
+- PRODES minimum mapping unit (6.25 ha): seen only in a search snippet of INPE's note, not read. Not used.
+- The Science paper page itself is blocked (403); the citation is taken from the dataset page (#15).
 
 ## Pitfalls found so far (the video will state these honestly)
 
