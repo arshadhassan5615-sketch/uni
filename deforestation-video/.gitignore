@@ -1,0 +1,8 @@
+node_modules/
+video/renders/
+video/snapshots/
+*.mp4
+# large regenerable media (see PIPELINE.md to rebuild)
+video/assets/narration.wav
+video/assets/maps/*.png
+assets/audio/*.wav

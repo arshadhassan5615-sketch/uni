@@ -29,7 +29,7 @@ Narration only is inside the quote blocks. Visual notes are in italics.
 *Three columns appear on the map's side: FAO (country reports), Global Forest Watch (satellite tree cover loss), INPE PRODES (Brazilian Amazon only). Same map stays behind.*
 
 > There is no single number for deforestation, because there is no single question.
-> The FAO collects reports from countries, and measures change in land use. Global Forest Watch measures tree cover loss from satellites, which includes loss from fire. And Brazil's space agency, INPE, runs a programme called PRODES that measures clearing in the Brazilian Legal Amazon only.
+> The FAO compiles figures reported by countries. Global Forest Watch measures tree cover loss from satellites, and that includes loss from fire. And Brazil's space agency, INPE, runs a programme called PRODES that measures deforestation in the Brazilian Legal Amazon only. [1][6][10]
 > Those numbers should never be placed on one axis as if they measured the same thing. In this film, each one will be labelled with its source.
 
 ## 5. The global trend, according to FAO (3:00)
@@ -66,7 +66,7 @@ Narration only is inside the quote blocks. Visual notes are in italics.
 ## 9. What the maps tell us (6:10)
 *Return to the opening map, all layers visible. Spotlight on one sentence at a time.*
 
-> What do these maps tell us? That deforestation is measurable, in near real time, and in public.
+> What do these maps tell us? That forest loss can be measured, mapped, and published openly.
 > They also tell us the target is not met. Global Forest Watch reports that deforestation in two thousand twenty-five was seventy percent higher than the level needed to halt and reverse forest loss by two thousand thirty. [7]
 > A map cannot protect a forest. But it can show us, pixel by pixel, whether we are keeping our promises.
 
