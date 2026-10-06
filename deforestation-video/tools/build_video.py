@@ -1,21 +1,16 @@
 """Generate video/index.html (HyperFrames composition) from video/cues.json.
 Edit THIS file, never the generated HTML. Run: python3 -I tools/build_video.py
 
-World model (video-storytelling): one persistent map (#world) the camera moves over; each section is a
+World model (video-storytelling): one persistent map ground (baked into assets/ground.mp4 by bake_ground.py, camera moves included); each section is a
 clip of overlays. Sections are separated by a dark curtain wipe that sits in the silent gap between
 sentences; scene content is never animated out before its curtain (HyperFrames transition rule).
 Every factual on-screen string is traceable to FACT-SHEET.md (row numbers in comments)."""
 import json, os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-D = json.load(open(f"{ROOT}/video/cues.json"))
-TOTAL = D["total"]
-CUE = {(c["section"], c["n"]): c for c in D["cues"]}
-SEC = {int(k): v for k, v in D["sections"].items()}
-st = lambda s, n: CUE[(s, n)]["start"]
-en = lambda s, n: CUE[(s, n)]["end"]
-MID = {k: round((SEC[k]["end"] + SEC[k + 1]["start"]) / 2, 3) for k in range(1, 10)}
-WIN = {k: (0.0 if k == 1 else MID[k - 1], TOTAL if k == 10 else MID[k]) for k in range(1, 11)}
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from plan import *
+
 CUR_IN, CUR_HOLD, CUR_OUT = 0.45, 0.20, 0.45   # curtain timing around each MID
 
 js = []
@@ -33,15 +28,6 @@ def count(el, t, target, dur, dec, ease="power2.out", comma=False):
     J('(function(){var o={v:0},el=document.getElementById(%s);tl.to(o,{v:%s,duration:%s,ease:%s,onUpdate:function(){el.textContent=%s}},%.3f);})();'
       % (q(el), target, dur, q(ease), fmt, t))
 
-# camera windows in 6000x4000 world px (x0, y0, width). 200 world px per degree; lon -70..-40, lat 0..-20
-W_WORLD, W_REGION = (0, 200, 6000), (800, 600, 3600)
-def cam(win):
-    x0, y0, w = win; s = 1920 / w
-    return dict(x=round(-x0 * s, 2), y=round(-y0 * s, 2), scale=round(s, 5), transformOrigin="0 0")
-def camset(win, t): set_("#world", t, **cam(win))
-def camto(win, t, dur, ease="none"):
-    v = cam(win); v.update(duration=dur, ease=ease); J(f'tl.to("#world", {q(v)}, {t:.3f});')
-
 # ---------------------------------------------------------------- persistent layers + camera + curtain
 set_("#curtain", 0, clipPath="inset(0% 0% 0% 0%)")
 fromto("#curtain", 0.25, {"clipPath": "inset(0% 0% 0% 0%)"}, {"clipPath": "inset(0% 0% 0% 100%)", "duration": 0.9, "ease": "power2.inOut"})
@@ -50,29 +36,6 @@ for k, m in MID.items():
     fromto("#curtain", m + CUR_HOLD / 2, {"clipPath": "inset(0% 0% 0% 0%)"}, {"clipPath": "inset(0% 0% 0% 100%)", "duration": CUR_OUT, "ease": "power2.inOut"})
 set_("#curtain", TOTAL - 2.6, clipPath="inset(0% 100% 0% 0%)")
 fromto("#curtain", TOTAL - 2.5, {"clipPath": "inset(0% 100% 0% 0%)"}, {"clipPath": "inset(0% 0% 0% 0%)", "duration": 2.3, "ease": "power1.inOut"})  # final fade-to-dark (final scene only)
-
-SCRIM = {1: 0.0, 2: 0.80, 3: 0.88, 4: 0.88, 5: 0.86, 6: 0.0, 7: 0.62, 8: 0.90, 9: 0.0, 10: 0.94}
-set_("#scrim", 0, opacity=0)
-for k in range(2, 11): set_("#scrim", MID[k - 1], opacity=SCRIM[k])
-
-# camera plan: (start window, end window) drifting over each section; S6 does the real push-in
-CAM = {1: ((0, 200, 6000), (120, 260, 5760)), 2: ((800, 600, 3600), (900, 640, 3400)), 3: ((2300, 900, 3600), (2200, 960, 3400)),
-       4: ((300, 500, 3600), (400, 540, 3400)), 5: ((1400, 1100, 3600), (1500, 1060, 3400)),
-       7: (W_REGION, (840, 620, 3520)), 8: ((2000, 500, 3600), (2100, 540, 3400)), 9: (W_WORLD, (60, 230, 5880)), 10: ((600, 400, 4000), (640, 420, 3900))}
-for k, (a, b) in CAM.items():
-    t0, t1 = WIN[k]
-    camset(a, t0 if k > 1 else 0)
-    camto(b, t0 if k > 1 else 0, t1 - t0)
-# S6: world window, loss hidden, push-in to region on S6.1, then the timelapse video takes over at identical framing
-camset(W_WORLD, MID[5]); set_("#loss", MID[5], opacity=0); set_("#loss", MID[6], opacity=1)
-camto(W_REGION, st(6, 1) + 0.1, 3.7, "power2.inOut")
-
-# S1 map reveal
-set_("#base", 0, opacity=0); set_("#borders", 0, opacity=0)
-set_("#loss", 0, clipPath="inset(0% 100% 0% 0%)")
-to("#base", 0.6, opacity=1, duration=3.0, ease="power1.inOut")
-to("#borders", st(1, 1) + 1.5, opacity=1, duration=2.0, ease="power1.inOut")
-to("#loss", st(1, 2), clipPath="inset(0% 0% 0% 0%)", duration=4.0, ease="power2.inOut")
 
 # ---------------------------------------------------------------- scene markup
 H = {}
@@ -187,7 +150,6 @@ frm("#s5-t2", st(5, 6) - 0.1, y=20, duration=0.8, ease="power2.out")
 frm("#s5-src", st(5, 2), duration=0.9, ease="power1.out")
 
 # ---- S6: zoom into the Amazon; the baked timelapse (2001-2024) holds the map  [facts 10, 15]
-T6 = st(6, 1) + 3.9         # video start; camera has landed on the region window
 sec(6, '''
 <div id="s6-year" class="plate" style="left:100px;bottom:150px;padding:20px 40px 26px"><div class="kicker">Cumulative tree cover loss, up to</div><div class="num" id="s6-yr" style="font-size:150px;color:#EAF1EC">2001</div></div>
 <div id="s6-legend" class="plate" style="right:100px;bottom:150px;width:640px;padding:24px 30px">
@@ -298,10 +260,7 @@ CSS = '''
 html,body{width:1920px;height:1080px;overflow:hidden;background:#07110D}
 body{font-family:"DM Sans",sans-serif;color:#EAF1EC;font-variant-numeric:tabular-nums}
 #root{position:relative;width:100%;height:100%;overflow:hidden;background:#07110D}
-#world{position:absolute;left:0;top:0;width:6000px;height:4000px;will-change:transform}
-#world img,#world svg{position:absolute;left:0;top:0;width:6000px;height:4000px;display:block}
-#scrim{position:absolute;inset:0;background:#07110D;z-index:2;opacity:0}
-#s6-v{position:absolute;inset:0;width:1920px;height:1080px;z-index:5;object-fit:cover}
+#ground{position:absolute;inset:0;width:1920px;height:1080px;z-index:0}
 .scene{position:absolute;inset:0;z-index:10}
 #curtain{position:absolute;inset:0;background:#07110D;z-index:100}
 .plate{position:absolute;background:rgba(7,17,13,.86);border:1px solid rgba(234,241,236,.16);border-radius:22px}
@@ -329,10 +288,8 @@ body{font-family:"DM Sans",sans-serif;color:#EAF1EC;font-variant-numeric:tabular
 .sname{font-weight:700;color:#EAF1EC}.sdesc{color:#EAF1EC}.surl{color:#9FB3A6;font-size:23px;text-align:right}
 '''
 audio = f'<audio id="narration" src="assets/narration.wav" data-start="0" data-duration="{TOTAL}" data-track-index="30" data-volume="1"></audio>'
-video = f'<video id="s6-v" class="clip" src="assets/amazon_timelapse.mp4" data-start="{T6:.3f}" data-duration="{WIN[6][1]-T6:.3f}" data-track-index="20" muted playsinline></video>'
-world = '''<div id="world"><img id="base" src="assets/maps/base_forest.png" alt=""><img id="loss" src="assets/maps/loss_all.png" alt=""><img id="borders" src="assets/maps/borders.svg" alt=""></div>
-<div id="scrim"></div>'''
-body = world + "\n" + video + "\n" + "\n".join(H[k] for k in range(1, 11)) + '\n<div id="curtain"></div>\n' + audio
+ground = f'<video id="ground" class="clip" src="assets/ground.mp4" data-start="0" data-duration="{TOTAL}" data-track-index="0" muted playsinline></video>'
+body = ground + "\n" + "\n".join(H[k] for k in range(1, 11)) + '\n<div id="curtain"></div>\n' + audio
 html = f'''<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=1920, height=1080"><title>Reading the Forest</title>
 <script src="gsap.min.js"></script>

@@ -9,10 +9,7 @@
 html,body{width:1920px;height:1080px;overflow:hidden;background:#07110D}
 body{font-family:"DM Sans",sans-serif;color:#EAF1EC;font-variant-numeric:tabular-nums}
 #root{position:relative;width:100%;height:100%;overflow:hidden;background:#07110D}
-#world{position:absolute;left:0;top:0;width:6000px;height:4000px;will-change:transform}
-#world img,#world svg{position:absolute;left:0;top:0;width:6000px;height:4000px;display:block}
-#scrim{position:absolute;inset:0;background:#07110D;z-index:2;opacity:0}
-#s6-v{position:absolute;inset:0;width:1920px;height:1080px;z-index:5;object-fit:cover}
+#ground{position:absolute;inset:0;width:1920px;height:1080px;z-index:0}
 .scene{position:absolute;inset:0;z-index:10}
 #curtain{position:absolute;inset:0;background:#07110D;z-index:100}
 .plate{position:absolute;background:rgba(7,17,13,.86);border:1px solid rgba(234,241,236,.16);border-radius:22px}
@@ -41,9 +38,7 @@ body{font-family:"DM Sans",sans-serif;color:#EAF1EC;font-variant-numeric:tabular
 </style></head>
 <body>
 <div id="root" data-composition-id="main" data-start="0" data-duration="435.864" data-width="1920" data-height="1080">
-<div id="world"><img id="base" src="assets/maps/base_forest.png" alt=""><img id="loss" src="assets/maps/loss_all.png" alt=""><img id="borders" src="assets/maps/borders.svg" alt=""></div>
-<div id="scrim"></div>
-<video id="s6-v" class="clip" src="assets/amazon_timelapse.mp4" data-start="218.242" data-duration="33.482" data-track-index="20" muted playsinline></video>
+<video id="ground" class="clip" src="assets/ground.mp4" data-start="0" data-duration="435.864" data-track-index="0" muted playsinline></video>
 <section id="s1" class="clip scene" data-start="0.000" data-duration="37.285" data-track-index="1">
 
 <div id="s1-title" class="plate" style="left:100px;top:90px;padding:30px 44px 34px">
@@ -188,44 +183,6 @@ tl.fromTo("#curtain", {"clipPath": "inset(0% 100% 0% 0%)"}, {"clipPath": "inset(
 tl.fromTo("#curtain", {"clipPath": "inset(0% 0% 0% 0%)"}, {"clipPath": "inset(0% 0% 0% 100%)", "duration": 0.45, "ease": "power2.inOut"}, 409.749);
 tl.set("#curtain", {"clipPath": "inset(0% 100% 0% 0%)"}, 433.264);
 tl.fromTo("#curtain", {"clipPath": "inset(0% 100% 0% 0%)"}, {"clipPath": "inset(0% 0% 0% 0%)", "duration": 2.3, "ease": "power1.inOut"}, 433.364);
-tl.set("#scrim", {"opacity": 0}, 0.000);
-tl.set("#scrim", {"opacity": 0.8}, 37.285);
-tl.set("#scrim", {"opacity": 0.88}, 68.603);
-tl.set("#scrim", {"opacity": 0.88}, 128.651);
-tl.set("#scrim", {"opacity": 0.86}, 170.841);
-tl.set("#scrim", {"opacity": 0.0}, 213.592);
-tl.set("#scrim", {"opacity": 0.62}, 251.724);
-tl.set("#scrim", {"opacity": 0.9}, 293.503);
-tl.set("#scrim", {"opacity": 0.0}, 376.208);
-tl.set("#scrim", {"opacity": 0.94}, 409.649);
-tl.set("#world", {"x": 0.0, "y": -64.0, "scale": 0.32, "transformOrigin": "0 0"}, 0.000);
-tl.to("#world", {"x": -40.0, "y": -86.67, "scale": 0.33333, "transformOrigin": "0 0", "duration": 37.285, "ease": "none"}, 0.000);
-tl.set("#world", {"x": -426.67, "y": -320.0, "scale": 0.53333, "transformOrigin": "0 0"}, 37.285);
-tl.to("#world", {"x": -508.24, "y": -361.41, "scale": 0.56471, "transformOrigin": "0 0", "duration": 31.317999999999998, "ease": "none"}, 37.285);
-tl.set("#world", {"x": -1226.67, "y": -480.0, "scale": 0.53333, "transformOrigin": "0 0"}, 68.603);
-tl.to("#world", {"x": -1242.35, "y": -542.12, "scale": 0.56471, "transformOrigin": "0 0", "duration": 60.048000000000016, "ease": "none"}, 68.603);
-tl.set("#world", {"x": -160.0, "y": -266.67, "scale": 0.53333, "transformOrigin": "0 0"}, 128.651);
-tl.to("#world", {"x": -225.88, "y": -304.94, "scale": 0.56471, "transformOrigin": "0 0", "duration": 42.19, "ease": "none"}, 128.651);
-tl.set("#world", {"x": -746.67, "y": -586.67, "scale": 0.53333, "transformOrigin": "0 0"}, 170.841);
-tl.to("#world", {"x": -847.06, "y": -598.59, "scale": 0.56471, "transformOrigin": "0 0", "duration": 42.751000000000005, "ease": "none"}, 170.841);
-tl.set("#world", {"x": -426.67, "y": -320.0, "scale": 0.53333, "transformOrigin": "0 0"}, 251.724);
-tl.to("#world", {"x": -458.18, "y": -338.18, "scale": 0.54545, "transformOrigin": "0 0", "duration": 41.778999999999996, "ease": "none"}, 251.724);
-tl.set("#world", {"x": -1066.67, "y": -266.67, "scale": 0.53333, "transformOrigin": "0 0"}, 293.503);
-tl.to("#world", {"x": -1185.88, "y": -304.94, "scale": 0.56471, "transformOrigin": "0 0", "duration": 82.70500000000004, "ease": "none"}, 293.503);
-tl.set("#world", {"x": 0.0, "y": -64.0, "scale": 0.32, "transformOrigin": "0 0"}, 376.208);
-tl.to("#world", {"x": -19.59, "y": -75.1, "scale": 0.32653, "transformOrigin": "0 0", "duration": 33.440999999999974, "ease": "none"}, 376.208);
-tl.set("#world", {"x": -288.0, "y": -192.0, "scale": 0.48, "transformOrigin": "0 0"}, 409.649);
-tl.to("#world", {"x": -315.08, "y": -206.77, "scale": 0.49231, "transformOrigin": "0 0", "duration": 26.214999999999975, "ease": "none"}, 409.649);
-tl.set("#world", {"x": 0.0, "y": -64.0, "scale": 0.32, "transformOrigin": "0 0"}, 213.592);
-tl.set("#loss", {"opacity": 0}, 213.592);
-tl.set("#loss", {"opacity": 1}, 251.724);
-tl.to("#world", {"x": -426.67, "y": -320.0, "scale": 0.53333, "transformOrigin": "0 0", "duration": 3.7, "ease": "power2.inOut"}, 214.442);
-tl.set("#base", {"opacity": 0}, 0.000);
-tl.set("#borders", {"opacity": 0}, 0.000);
-tl.set("#loss", {"clipPath": "inset(0% 100% 0% 0%)"}, 0.000);
-tl.to("#base", {"opacity": 1, "duration": 3.0, "ease": "power1.inOut"}, 0.600);
-tl.to("#borders", {"opacity": 1, "duration": 2.0, "ease": "power1.inOut"}, 2.700);
-tl.to("#loss", {"clipPath": "inset(0% 0% 0% 0%)", "duration": 4.0, "ease": "power2.inOut"}, 7.723);
 tl.from("#s1-title", {"y": 24, "duration": 1.0, "opacity": 0, "ease": "power3.out"}, 0.900);
 tl.from("#s1-legend", {"x": 40, "duration": 0.8, "ease": "expo.out", "opacity": 0}, 18.736);
 tl.from("#s1-chip", {"y": 30, "duration": 0.7, "opacity": 0, "ease": "power3.out"}, 23.278);
