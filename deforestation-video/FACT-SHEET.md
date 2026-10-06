@@ -19,10 +19,11 @@ Access date: 2026-10-06. Nothing here is an estimate made by me.
 | 9 | PRODES 2025 (Aug 2024-Jul 2025): estimate 5,796 km2 (Oct 2025), consolidated 5,731 km2 (Mar 2026). | INPE / BiomasBR | https://data.inpe.br/biomasbr/novos-dados-do-prodes-sao-atualizados-pelo-programa-biomasbr/ |
 | 10 | INPE publishes every PRODES deforestation polygon (835,278 in the yearly layer) with year and area, open to download. | INPE TerraBrasilis WFS (queried directly) | https://terrabrasilis.dpi.inpe.br/geoserver/prodes-legal-amz/ows |
 
+| 11 | 2024: tropical primary forest loss 6.7 million ha, nearly twice 2023; fires, not agriculture, the leading cause for the first time, nearly 50%. | WRI release on Global Forest Watch 2024 data | https://www.wri.org/news/release-global-forest-loss-shatters-records-2024-fueled-massive-fires |
+| 12 | Brazil = 42% of 2024 tropical primary forest loss, 66% of it caused by fire. Bolivia 1.5 million ha (+200%). Global tree cover loss ~30 million ha (+5% vs 2023). | WRI release | same |
+
 ## Seen only in search snippets: NOT usable until read on the primary page
 
-- Tropical primary forest loss in 2024 = 6.7 million ha, fires nearly 50% of it (WRI release, primary page not yet read).
-- Brazil = 42% of 2024 tropical primary loss; Bolivia 1.5 million ha in 2024.
 - PRODES 2023 consolidated = 9,064 km2 (so 2024 estimate is -30.6%).
 - FAO: deforestation 13.6 million ha/yr (2000-2015); primary forest loss 1.61 million ha/yr (2015-2025).
 - PRODES 2004 = 27,772 km2 (peak) and 2012 = 4,571 km2 (low): only seen on NGO/news pages; need INPE's own series.
