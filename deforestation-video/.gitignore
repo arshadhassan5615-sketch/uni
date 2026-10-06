@@ -6,3 +6,4 @@ video/snapshots/
 video/assets/narration.wav
 video/assets/maps/*.png
 assets/audio/*.wav
+__pycache__/
