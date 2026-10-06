@@ -4,9 +4,9 @@ Tags in [brackets] point to rows in FACT-SHEET.md. Lines without a tag make no f
 Narration only is inside the quote blocks. Visual notes are in italics.
 
 ## 1. The map (0:00)
-*Black screen. The Amazon basin fades in as one still map: tree cover in muted green, forest loss 2001-2024 in the yellow-to-red ramp.*
+*Black screen. The map fades in: tree cover 2000 in muted green, loss 2001-2024 in the yellow-to-red ramp, Legal Amazon outline dashed. Caption: Hansen et al. / UMD / Google / USGS / NASA, Global Forest Change v1.12; cells aggregated to ~300 m.*
 
-> This is the Amazon basin, seen from orbit. The coloured pixels are places where a satellite recorded that forest was lost between two thousand and one and two thousand and twenty-four. [15]
+> This is the southern Amazon region of South America, mapped from satellite data. The coloured areas are places where tree cover that existed in the year two thousand was lost between two thousand and one and two thousand and twenty-four. Yellow is early. Red is recent. [15]
 > Each pixel covers about thirty metres of ground. [15]
 > Today we will use maps like this one to ask a simple question. How much forest is being lost, and how do we know?
 
@@ -42,7 +42,7 @@ Narration only is inside the quote blocks. Visual notes are in italics.
 ## 6. Zooming in: the Amazon (3:50)
 *Camera pushes from world to region (arc of deforestation). Hansen loss year layer animates 2001 -> 2024, year counter in the corner.*
 
-> Now the camera moves closer. This is the Brazilian Amazon, and the colours are years. Yellow is early. Red is recent.
+> Now the camera moves closer. The dashed line is the Legal Amazon, the area INPE monitors. Inside and outside it, the colours show the year of loss.
 > Every shade on this map was recorded in a dataset that anyone can download. [15]
 > INPE publishes the same kind of detail for the Brazilian Legal Amazon. Its yearly deforestation layer contains more than eight hundred thousand individual polygons, each with a date and an area. [10]
 
