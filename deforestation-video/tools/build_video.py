@@ -95,7 +95,7 @@ sec(3, '''
   <div class="kicker">Tree cover</div><div class="h3" style="margin-top:8px;font-size:38px">Canopy closure of vegetation taller than 5 m</div></div>
 <div id="s3-def2" class="plate card" style="left:740px;top:720px;width:1060px;height:215px">
   <div class="kicker">Loss</div><div class="h3" style="margin-top:8px;font-size:38px">A stand-replacement disturbance: a change from forest to non-forest</div></div>
-<div class="src" id="s3-src">Sources: USGS, Landsat 1 &#183; ESA, Sentinel-2 &#183; Hansen et al. (2013), Global Forest Change v1.12 &#183; Global Forest Watch uses the Hansen dataset</div>''')
+<div class="src" id="s3-src">Sources: USGS, Landsat 1 &#183; ESA, Sentinel-2 &#183; Hansen et al. (2013), Global Forest Change v1.12 &#183; Global Forest Watch tree cover loss data: University of Maryland GLAD lab, includes loss from fire</div>''')
 frm("#s3-landsat", st(3, 2) - 0.3, y=40, duration=0.8)
 frm("#s3-sent", st(3, 4) - 0.3, y=40, duration=0.8, ease="expo.out")
 frm("#s3-grid", st(3, 5) - 0.2, scale=0.92, duration=0.8, ease="power2.out")
@@ -112,7 +112,7 @@ def card4(i, name, who, measures, covers):
   <div class="kicker" style="margin-top:26px">Covers</div><div class="body2">{covers}</div></div>'''
 sec(4, '''
 <div id="s4-h" class="h2" style="position:absolute;left:120px;top:100px;width:1500px">No single number, because there is no single question</div>
-''' + card4(1, "Forest Resources Assessment", "FAO", "Figures reported by countries", "236 countries and areas")
+''' + card4(1, "Forest Resources Assessment", "FAO", "Forest statistics compiled with national correspondents", "236 countries and areas")
     + card4(2, "Tree cover loss", "Global Forest Watch &#183; University of Maryland", "Satellite-detected loss, including loss from fire", "Global")
     + card4(3, "PRODES", "INPE &#183; Brazil's space agency", "Satellite-mapped deforestation", "Brazilian Legal Amazon only") + '''
 <div id="s4-ban" class="h3" style="position:absolute;left:120px;top:830px;color:#F6C453;font-size:46px">Different questions give different numbers. Never put them on one axis.</div>
@@ -136,10 +136,10 @@ sec(5, '''
 ''' + bar("s5-b3", "1990s", 10.7, "#EAF1EC", 574) + bar("s5-b4", "2015&#8211;2025", 4.12, "#EAF1EC", 664) + '''
 <div id="s5-t1" class="h3" style="position:absolute;left:120px;top:810px;color:#F6C453">Still 10.9 million hectares a year.</div>
 <div id="s5-t2" class="body" style="position:absolute;left:120px;top:880px">The trend is falling. The loss has not stopped.</div>
-<div class="src" id="s5-src">Source: FAO, Global Forest Resources Assessment 2025 (released 21 October 2025) &#183; net loss = deforestation minus forest gain</div>''')
+<div class="src" id="s5-src">Source: FAO, Global Forest Resources Assessment 2025 (released 21 October 2025)</div>''')
 frm("#s5-h", st(5, 1) - 0.2, y=30, duration=0.9)
 frm("#s5-ga", st(5, 2) - 0.3, x=-30, duration=0.7)
-for bid, t in (("s5-b2", st(5, 2) + 5.2), ("s5-b1", st(5, 3) + 0.2), ("s5-b3", st(5, 4) + 4.2), ("s5-b4", st(5, 4) + 8.2)):
+for bid, t in (("s5-b2", st(5, 2) + 5.2), ("s5-b1", st(5, 3) + 0.2), ("s5-b3", st(5, 4) + 3.4), ("s5-b4", st(5, 4) + 7.6)):
     if bid == "s5-b3": frm("#s5-gb", t - 1.0, x=-30, duration=0.7)
     fromto("#" + bid, t, {"scaleX": 0, "transformOrigin": "0% 50%"}, {"scaleX": 1, "duration": 1.3, "ease": "power3.out"})
     frm(f"#{bid}-l", t - 0.2, x=-12, duration=0.5, ease="power2.out")

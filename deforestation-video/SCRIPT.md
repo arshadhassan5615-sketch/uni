@@ -22,21 +22,21 @@ Narration only is inside the quote blocks. Visual notes are in italics.
 
 > Mapping forests from space is not new. NASA's first Landsat satellite launched on the twenty-third of July, nineteen seventy-two. Since then, Landsat satellites have continuously acquired images of the Earth's land surface. [13]
 > Today Europe's Sentinel-2 satellites add images at ten-metre resolution, revisiting the same ground about every five days. [14]
-> A map is only as good as its definition. In the global forest change dataset used by Global Forest Watch, tree cover means vegetation taller than five metres. Loss means a stand-replacement disturbance, a change from forest to non-forest. [15]
+> A map is only as good as its definition. In the global forest change dataset from the University of Maryland, tree cover means vegetation taller than five metres. Loss means a stand-replacement disturbance, a change from forest to non-forest. [15]
 > That definition matters. It counts what satellites can see, which is not always the same as what a country calls deforestation.
 
 ## 4. Three systems, three questions (2:10)
 *Three columns appear on the map's side: FAO (country reports), Global Forest Watch (satellite tree cover loss), INPE PRODES (Brazilian Amazon only). Same map stays behind.*
 
 > There is no single number for deforestation, because there is no single question.
-> The FAO compiles figures reported by countries. Global Forest Watch measures tree cover loss from satellites, and that includes loss from fire. And Brazil's space agency, INPE, runs a programme called PRODES that measures deforestation in the Brazilian Legal Amazon only. [1][6][10]
+> The FAO assessment is compiled with national correspondents from one hundred and ninety-seven countries and areas. Global Forest Watch measures tree cover loss from satellites, and that includes loss from fire. And Brazil's space agency, INPE, runs a programme called PRODES that measures deforestation in the Brazilian Legal Amazon only. [1][6][10][16]
 > Those numbers should never be placed on one axis as if they measured the same thing. In this film, each one will be labelled with its source.
 
 ## 5. The global trend, according to FAO (3:00)
 *Bars: deforestation 17.6 (1990-2000) and 10.9 (2015-2025) million ha per year; net loss 10.7 and 4.12.*
 
 > Here is the good news, and it is real. According to the FAO, deforestation slowed to ten point nine million hectares per year between two thousand fifteen and twenty twenty-five. In the nineteen nineties it was seventeen point six. [2]
-> Net forest loss, which subtracts forest that grows back or is planted, fell from ten point seven million hectares per year to four point one two. [3]
+> Net forest loss fell from ten point seven million hectares per year in the nineteen nineties to four point one two million in twenty fifteen to twenty twenty-five. [3]
 > But ten point nine million hectares a year is still a very large number. The trend is falling. The loss has not stopped.
 
 ## 6. Zooming in: the Amazon (3:50)

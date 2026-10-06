@@ -1,5 +1,5 @@
 {
- "total": 435.864,
+ "total": 441.095,
  "sections": {
   "1": {
    "start": 1.2,
@@ -11,35 +11,35 @@
   },
   "3": {
    "start": 69.353,
-   "end": 127.901
+   "end": 127.51
   },
   "4": {
-   "start": 129.401,
-   "end": 170.091
+   "start": 129.01,
+   "end": 174.247
   },
   "5": {
-   "start": 171.591,
-   "end": 212.842
+   "start": 175.747,
+   "end": 218.073
   },
   "6": {
-   "start": 214.342,
-   "end": 250.974
+   "start": 219.573,
+   "end": 256.205
   },
   "7": {
-   "start": 252.474,
-   "end": 292.753
+   "start": 257.705,
+   "end": 297.984
   },
   "8": {
-   "start": 294.253,
-   "end": 375.458
+   "start": 299.484,
+   "end": 380.689
   },
   "9": {
-   "start": 376.958,
-   "end": 408.899
+   "start": 382.189,
+   "end": 414.13
   },
   "10": {
-   "start": 410.399,
-   "end": 431.864
+   "start": 415.63,
+   "end": 437.095
   }
  },
  "cues": [
@@ -199,11 +199,11 @@
   {
    "section": 3,
    "n": 6,
-   "text": "In the global forest change dataset used by Global Forest Watch, tree cover means vegetation taller than five metres.",
-   "file": "assets/audio/s03_06_6c0696d3.wav",
-   "dur": 9.299,
+   "text": "In the global forest change dataset from the University of Maryland, tree cover means vegetation taller than five metres.",
+   "file": "assets/audio/s03_06_048e3952.wav",
+   "dur": 8.908,
    "start": 101.772,
-   "end": 111.071
+   "end": 110.68
   },
   {
    "section": 3,
@@ -211,8 +211,8 @@
    "text": "Loss means a stand-replacement disturbance, a change from forest to non-forest.",
    "file": "assets/audio/s03_07_47c8e7d7.wav",
    "dur": 6.366,
-   "start": 111.521,
-   "end": 117.887
+   "start": 111.13,
+   "end": 117.496
   },
   {
    "section": 3,
@@ -220,8 +220,8 @@
    "text": "That definition matters.",
    "file": "assets/audio/s03_08_fb38b527.wav",
    "dur": 2.064,
-   "start": 118.337,
-   "end": 120.401
+   "start": 117.946,
+   "end": 120.01
   },
   {
    "section": 3,
@@ -229,8 +229,8 @@
    "text": "It counts what satellites can see, which is not always the same as what a country calls deforestation.",
    "file": "assets/audio/s03_09_40f0c708.wav",
    "dur": 7.05,
-   "start": 120.851,
-   "end": 127.901
+   "start": 120.46,
+   "end": 127.51
   },
   {
    "section": 4,
@@ -238,17 +238,17 @@
    "text": "There is no single number for deforestation, because there is no single question.",
    "file": "assets/audio/s04_01_6d776fbd.wav",
    "dur": 5.975,
-   "start": 129.401,
-   "end": 135.376
+   "start": 129.01,
+   "end": 134.985
   },
   {
    "section": 4,
    "n": 2,
-   "text": "The FAO compiles figures reported by countries.",
-   "file": "assets/audio/s04_02_fed9e018.wav",
-   "dur": 4.117,
-   "start": 135.826,
-   "end": 139.943
+   "text": "The FAO assessment is compiled with national correspondents from one hundred and ninety-seven countries and areas.",
+   "file": "assets/audio/s04_02_6f737cb0.wav",
+   "dur": 8.664,
+   "start": 135.435,
+   "end": 144.099
   },
   {
    "section": 4,
@@ -256,8 +256,8 @@
    "text": "Global Forest Watch measures tree cover loss from satellites, and that includes loss from fire.",
    "file": "assets/audio/s04_03_47dc498b.wav",
    "dur": 6.806,
-   "start": 140.393,
-   "end": 147.199
+   "start": 144.549,
+   "end": 151.355
   },
   {
    "section": 4,
@@ -265,8 +265,8 @@
    "text": "And Brazil's space agency, INPE, runs a programme called PRODES that measures deforestation in the Brazilian Legal Amazon only.",
    "file": "assets/audio/s04_04_b34e5383.wav",
    "dur": 11.597,
-   "start": 147.649,
-   "end": 159.246
+   "start": 151.805,
+   "end": 163.402
   },
   {
    "section": 4,
@@ -274,8 +274,8 @@
    "text": "Those numbers should never be placed on one axis as if they measured the same thing.",
    "file": "assets/audio/s04_05_1b5b9a5f.wav",
    "dur": 5.779,
-   "start": 159.696,
-   "end": 165.475
+   "start": 163.852,
+   "end": 169.631
   },
   {
    "section": 4,
@@ -283,8 +283,8 @@
    "text": "In this film, each one will be labelled with its source.",
    "file": "assets/audio/s04_06_f758967e.wav",
    "dur": 4.166,
-   "start": 165.925,
-   "end": 170.091
+   "start": 170.081,
+   "end": 174.247
   },
   {
    "section": 5,
@@ -292,8 +292,8 @@
    "text": "Here is the good news, and it is real.",
    "file": "assets/audio/s05_01_de1a5d12.wav",
    "dur": 3.091,
-   "start": 171.591,
-   "end": 174.682
+   "start": 175.747,
+   "end": 178.838
   },
   {
    "section": 5,
@@ -301,8 +301,8 @@
    "text": "According to the FAO, deforestation slowed to ten point nine million hectares per year between two thousand fifteen and twenty twenty-five.",
    "file": "assets/audio/s05_02_35a595da.wav",
    "dur": 11.45,
-   "start": 175.132,
-   "end": 186.582
+   "start": 179.288,
+   "end": 190.738
   },
   {
    "section": 5,
@@ -310,17 +310,17 @@
    "text": "In the nineteen nineties it was seventeen point six.",
    "file": "assets/audio/s05_03_6fbe0fbf.wav",
    "dur": 3.629,
-   "start": 187.032,
-   "end": 190.661
+   "start": 191.188,
+   "end": 194.817
   },
   {
    "section": 5,
    "n": 4,
-   "text": "Net forest loss, which subtracts forest that grows back or is planted, fell from ten point seven million hectares per year to four point one two.",
-   "file": "assets/audio/s05_04_2cf41bb0.wav",
-   "dur": 10.717,
-   "start": 191.111,
-   "end": 201.828
+   "text": "Net forest loss fell from ten point seven million hectares per year in the nineteen nineties to four point one two million in twenty fifteen to twenty twenty-five.",
+   "file": "assets/audio/s05_04_9c65fbd0.wav",
+   "dur": 11.792,
+   "start": 195.267,
+   "end": 207.059
   },
   {
    "section": 5,
@@ -328,8 +328,8 @@
    "text": "But ten point nine million hectares a year is still a very large number.",
    "file": "assets/audio/s05_05_6a348372.wav",
    "dur": 5.682,
-   "start": 202.278,
-   "end": 207.96
+   "start": 207.509,
+   "end": 213.191
   },
   {
    "section": 5,
@@ -337,8 +337,8 @@
    "text": "The trend is falling.",
    "file": "assets/audio/s05_06_34ff2d42.wav",
    "dur": 1.869,
-   "start": 208.41,
-   "end": 210.279
+   "start": 213.641,
+   "end": 215.51
   },
   {
    "section": 5,
@@ -346,8 +346,8 @@
    "text": "The loss has not stopped.",
    "file": "assets/audio/s05_07_c53eac94.wav",
    "dur": 2.113,
-   "start": 210.729,
-   "end": 212.842
+   "start": 215.96,
+   "end": 218.073
   },
   {
    "section": 6,
@@ -355,8 +355,8 @@
    "text": "Now the camera moves closer.",
    "file": "assets/audio/s06_01_455910a2.wav",
    "dur": 2.015,
-   "start": 214.342,
-   "end": 216.357
+   "start": 219.573,
+   "end": 221.588
   },
   {
    "section": 6,
@@ -364,8 +364,8 @@
    "text": "The dashed line is the Legal Amazon, the area INPE monitors.",
    "file": "assets/audio/s06_02_0d4196f8.wav",
    "dur": 6.317,
-   "start": 216.807,
-   "end": 223.124
+   "start": 222.038,
+   "end": 228.355
   },
   {
    "section": 6,
@@ -373,8 +373,8 @@
    "text": "Inside and outside it, the colours show the year of loss.",
    "file": "assets/audio/s06_03_8f7ec51f.wav",
    "dur": 4.557,
-   "start": 223.574,
-   "end": 228.131
+   "start": 228.805,
+   "end": 233.362
   },
   {
    "section": 6,
@@ -382,8 +382,8 @@
    "text": "Every shade on this map was recorded in a dataset that anyone can download.",
    "file": "assets/audio/s06_04_1eaea34a.wav",
    "dur": 6.024,
-   "start": 228.581,
-   "end": 234.605
+   "start": 233.812,
+   "end": 239.836
   },
   {
    "section": 6,
@@ -391,8 +391,8 @@
    "text": "INPE publishes the same kind of detail for the Brazilian Legal Amazon.",
    "file": "assets/audio/s06_05_7eff2809.wav",
    "dur": 6.317,
-   "start": 235.055,
-   "end": 241.372
+   "start": 240.286,
+   "end": 246.603
   },
   {
    "section": 6,
@@ -400,8 +400,8 @@
    "text": "Its yearly deforestation layer contains more than eight hundred thousand individual polygons, each with a date and an area.",
    "file": "assets/audio/s06_06_19883c10.wav",
    "dur": 9.152,
-   "start": 241.822,
-   "end": 250.974
+   "start": 247.053,
+   "end": 256.205
   },
   {
    "section": 7,
@@ -409,8 +409,8 @@
    "text": "For the year from August two thousand twenty-three to July two thousand twenty-four, INPE estimated six thousand two hundred and eighty-eight square kilometres of deforestation.",
    "file": "assets/audio/s07_01_2ad3a079.wav",
    "dur": 13.992,
-   "start": 252.474,
-   "end": 266.466
+   "start": 257.705,
+   "end": 271.697
   },
   {
    "section": 7,
@@ -418,8 +418,8 @@
    "text": "For the following year, the first estimate was five thousand seven hundred and ninety-six square kilometres.",
    "file": "assets/audio/s07_02_d84f2ae5.wav",
    "dur": 7.295,
-   "start": 266.916,
-   "end": 274.211
+   "start": 272.147,
+   "end": 279.442
   },
   {
    "section": 7,
@@ -427,8 +427,8 @@
    "text": "After the data were consolidated in March two thousand twenty-six, the figure became five thousand seven hundred and thirty-one.",
    "file": "assets/audio/s07_03_f6fa0239.wav",
    "dur": 8.713,
-   "start": 274.661,
-   "end": 283.374
+   "start": 279.892,
+   "end": 288.605
   },
   {
    "section": 7,
@@ -436,8 +436,8 @@
    "text": "Notice that detail.",
    "file": "assets/audio/s07_04_e6319e5e.wav",
    "dur": 1.771,
-   "start": 283.824,
-   "end": 285.595
+   "start": 289.055,
+   "end": 290.826
   },
   {
    "section": 7,
@@ -445,8 +445,8 @@
    "text": "Even official numbers are revised, and a careful presentation says which version it is using.",
    "file": "assets/audio/s07_05_24b8f99e.wav",
    "dur": 6.708,
-   "start": 286.045,
-   "end": 292.753
+   "start": 291.276,
+   "end": 297.984
   },
   {
    "section": 8,
@@ -454,8 +454,8 @@
    "text": "Satellites also show that the story is not only about clearing.",
    "file": "assets/audio/s08_01_ed6d0641.wav",
    "dur": 4.802,
-   "start": 294.253,
-   "end": 299.055
+   "start": 299.484,
+   "end": 304.286
   },
   {
    "section": 8,
@@ -463,8 +463,8 @@
    "text": "Global Forest Watch reported that in two thousand twenty-four, the world lost six point seven million hectares of tropical primary forest, nearly twice as much as in two thousand twenty-three.",
    "file": "assets/audio/s08_02_a984d246.wav",
    "dur": 13.748,
-   "start": 299.505,
-   "end": 313.253
+   "start": 304.736,
+   "end": 318.484
   },
   {
    "section": 8,
@@ -472,8 +472,8 @@
    "text": "For the first time on record, fires, not agriculture, were the leading cause, at nearly fifty percent.",
    "file": "assets/audio/s08_03_cb21b2a2.wav",
    "dur": 7.735,
-   "start": 313.703,
-   "end": 321.438
+   "start": 318.934,
+   "end": 326.669
   },
   {
    "section": 8,
@@ -481,8 +481,8 @@
    "text": "Brazil accounted for forty-two percent of that loss, and fires caused sixty-six percent of Brazil's.",
    "file": "assets/audio/s08_04_80b9c16c.wav",
    "dur": 7.588,
-   "start": 321.888,
-   "end": 329.476
+   "start": 327.119,
+   "end": 334.707
   },
   {
    "section": 8,
@@ -490,8 +490,8 @@
    "text": "In two thousand twenty-five, tropical primary forest loss fell by thirty-six percent, to four point three million hectares.",
    "file": "assets/audio/s08_05_b5b1f829.wav",
    "dur": 9.739,
-   "start": 329.926,
-   "end": 339.665
+   "start": 335.157,
+   "end": 344.896
   },
   {
    "section": 8,
@@ -499,8 +499,8 @@
    "text": "That is still forty-six percent higher than a decade earlier.",
    "file": "assets/audio/s08_06_07e1adb3.wav",
    "dur": 4.313,
-   "start": 340.115,
-   "end": 344.428
+   "start": 345.346,
+   "end": 349.659
   },
   {
    "section": 8,
@@ -508,8 +508,8 @@
    "text": "Across all kinds of tree cover, not only primary forest, the world lost about thirty million hectares in two thousand twenty-four, five percent more than the year before.",
    "file": "assets/audio/s08_07_de2111a0.wav",
    "dur": 12.477,
-   "start": 344.878,
-   "end": 357.355
+   "start": 350.109,
+   "end": 362.586
   },
   {
    "section": 8,
@@ -517,8 +517,8 @@
    "text": "In two thousand twenty-five, global tree cover loss declined by fourteen percent, to twenty-five point five million hectares.",
    "file": "assets/audio/s08_08_196353f9.wav",
    "dur": 9.935,
-   "start": 357.805,
-   "end": 367.74
+   "start": 363.036,
+   "end": 372.971
   },
   {
    "section": 8,
@@ -526,8 +526,8 @@
    "text": "Fires were responsible for forty-two percent of it.",
    "file": "assets/audio/s08_09_f5372091.wav",
    "dur": 3.58,
-   "start": 368.19,
-   "end": 371.77
+   "start": 373.421,
+   "end": 377.001
   },
   {
    "section": 8,
@@ -535,8 +535,8 @@
    "text": "That is an area larger than the United Kingdom.",
    "file": "assets/audio/s08_10_3e236eb3.wav",
    "dur": 3.238,
-   "start": 372.22,
-   "end": 375.458
+   "start": 377.451,
+   "end": 380.689
   },
   {
    "section": 9,
@@ -544,8 +544,8 @@
    "text": "What do these maps tell us?",
    "file": "assets/audio/s09_01_18df8c63.wav",
    "dur": 2.113,
-   "start": 376.958,
-   "end": 379.071
+   "start": 382.189,
+   "end": 384.302
   },
   {
    "section": 9,
@@ -553,8 +553,8 @@
    "text": "That forest loss can be measured, mapped, and published openly.",
    "file": "assets/audio/s09_02_3d2049a1.wav",
    "dur": 4.753,
-   "start": 379.521,
-   "end": 384.274
+   "start": 384.752,
+   "end": 389.505
   },
   {
    "section": 9,
@@ -562,8 +562,8 @@
    "text": "They also tell us the target is not met.",
    "file": "assets/audio/s09_03_94657188.wav",
    "dur": 2.944,
-   "start": 384.724,
-   "end": 387.668
+   "start": 389.955,
+   "end": 392.899
   },
   {
    "section": 9,
@@ -571,8 +571,8 @@
    "text": "Global Forest Watch reports that deforestation in two thousand twenty-five was seventy percent higher than the level needed to halt and reverse forest loss by two thousand thirty.",
    "file": "assets/audio/s09_04_be71dd91.wav",
    "dur": 11.988,
-   "start": 388.118,
-   "end": 400.106
+   "start": 393.349,
+   "end": 405.337
   },
   {
    "section": 9,
@@ -580,8 +580,8 @@
    "text": "A map cannot protect a forest.",
    "file": "assets/audio/s09_05_e8708548.wav",
    "dur": 2.553,
-   "start": 400.556,
-   "end": 403.109
+   "start": 405.787,
+   "end": 408.34
   },
   {
    "section": 9,
@@ -589,8 +589,8 @@
    "text": "But it can show us, pixel by pixel, whether we are keeping our promises.",
    "file": "assets/audio/s09_06_94df633d.wav",
    "dur": 5.34,
-   "start": 403.559,
-   "end": 408.899
+   "start": 408.79,
+   "end": 414.13
   },
   {
    "section": 10,
@@ -598,8 +598,8 @@
    "text": "Every number in this film comes from a public source, listed on screen.",
    "file": "assets/audio/s10_01_d1613b2c.wav",
    "dur": 5.291,
-   "start": 410.399,
-   "end": 415.69
+   "start": 415.63,
+   "end": 420.921
   },
   {
    "section": 10,
@@ -607,8 +607,8 @@
    "text": "The sources are the FAO, Global Forest Watch and the University of Maryland, INPE, NASA and the U S Geological Survey, and the European Space Agency.",
    "file": "assets/audio/s10_02_b5d84a59.wav",
    "dur": 14.334,
-   "start": 416.14,
-   "end": 430.474
+   "start": 421.371,
+   "end": 435.705
   },
   {
    "section": 10,
@@ -616,8 +616,8 @@
    "text": "Thank you.",
    "file": "assets/audio/s10_03_6c9ce314.wav",
    "dur": 0.94,
-   "start": 430.924,
-   "end": 431.864
+   "start": 436.155,
+   "end": 437.095
   }
  ]
 }

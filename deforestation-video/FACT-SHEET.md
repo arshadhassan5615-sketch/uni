@@ -25,6 +25,8 @@ Access date: 2026-10-06. Nothing here is an estimate made by me.
 | 13 | Landsat 1 (ERTS) launched 23 July 1972; "Since 1972, Landsat satellites have continuously acquired space-based images of the Earth's land surface." | USGS | https://www.usgs.gov/landsat-missions/landsat-1 |
 | 14 | Sentinel-2: 10 m resolution, 290 km swath, 5-day revisit with two satellites. | ESA | https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2 |
 | 15 | Global Forest Change v1.12: ~30 m pixels; tree cover = canopy closure of vegetation taller than 5 m; loss = "stand-replacement disturbance, or a change from a forest to non-forest state"; loss year coded 2001-2024. Citation: Hansen et al. 2013, Science 342:850-853. | Hansen/UMD/Google/USGS/NASA dataset page | https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html |
+| 16 | Global Forest Watch tree cover loss data come from the University of Maryland's GLAD lab; they capture disturbances to woody vegetation at least 5 m tall, 2001-2024, include natural forests and plantations, and a separate UMD fire dataset distinguishes fire-driven loss. | Global Forest Watch blog, 2024 tree cover loss data explained | https://globalnaturewatch.org/blog/data-and-tools/2024-tree-cover-loss-data-explained/ |
+| 17 | FAO FRA 2025 was compiled by over 700 experts and officially nominated national correspondents from 197 countries and areas. | FAO newsroom (same page as #1) | https://www.fao.org/newsroom/detail/global-deforestation-slows--but-forests-remain-under-pressure--fao-report-shows/en |
 
 ## Seen only in search snippets: NOT usable until read on the primary page
 
@@ -34,6 +36,11 @@ Access date: 2026-10-06. Nothing here is an estimate made by me.
   2012 (estimate vs consolidated). DECISION: these numbers are NOT used in the video.
 - PRODES minimum mapping unit (6.25 ha): seen only in a search snippet of INPE's note, not read. Not used.
 - The Science paper page itself is blocked (403); the citation is taken from the dataset page (#15).
+
+## Removed after the on-screen fact audit (not verifiable on a primary page)
+
+- "Net forest loss subtracts forest that grows back or is planted": FAO's release gives the figures but no definition. Removed; only the two published numbers are shown.
+- "Global Forest Watch uses the Hansen dataset": GFW's page says its data come from UMD's GLAD lab; it does not name Hansen. The Hansen dataset is described only from its own page (#15).
 
 ## Pitfalls found so far (the video will state these honestly)
 
